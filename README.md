@@ -69,4 +69,4 @@ Author
 
 Kalepu Yashvardhan
 Project MANUS | 2025
-GitHub: Yash_12711
+GitHub: CtrlAltYash
