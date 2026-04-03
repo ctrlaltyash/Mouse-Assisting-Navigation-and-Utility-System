@@ -1,0 +1,15 @@
+# MANUS - Mouse Assisting Navigation and Utility System
+# Production dependencies
+
+# Core vision and hand tracking
+opencv-python==4.13.0.92
+mediapipe==0.10.33
+
+# Numerical computing
+numpy>=2.0.0
+
+# Mouse and keyboard automation
+pyautogui==0.9.53
+
+# Development dependencies (optional, for testing and development)
+# Install with: pip install -r requirements.txt requirements-dev.txt

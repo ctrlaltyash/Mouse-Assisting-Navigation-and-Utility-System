@@ -1,0 +1,79 @@
+# MANUS - .gitignore
+# Python project gitignore
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs and data
+data/*.txt
+data/*.json
+data/*.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+.git
+
+# Development
+.hypothesis/
+*.prof
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Project-specific
+temp/
+tmp/
+*.bak
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Config overrides (user-specific)
+config_local.py
+settings_override.json
